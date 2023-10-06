@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { incNumber, decNumber, reset } from '../redux/Redux/Action/index';
+import LogOut from './LogOut';
 
 export const Counter = () => {
 
@@ -67,6 +68,8 @@ export const Counter = () => {
                     </div>
 
                 </div>
+
+                <LogOut/>
             </div>
         </>
     )
